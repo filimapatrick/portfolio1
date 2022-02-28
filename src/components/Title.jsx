@@ -1,9 +1,11 @@
 import React from 'react'
 
-function Title() {
+function Title({title, span}) {
   return (
-    <div>
-      
+    <div className='title'>
+        
+            <h2><span>{span}</span>{title}</h2>
+        
     </div>
   )
 }

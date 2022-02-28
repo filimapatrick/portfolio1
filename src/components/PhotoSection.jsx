@@ -21,7 +21,7 @@ function PhotoSection() {
         <div className='photo_icon'> <FaFacebook/></div>
         <div className='photo_icon'> <FaTwitter/></div>
     </div>
-    <hr/>
+    <hr style={{opacity:'0.2'}}/>
     <VerticalLine/>
     <div className='photo_footer'>
         <div>
